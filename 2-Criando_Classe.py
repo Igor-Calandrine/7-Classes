@@ -35,12 +35,13 @@ print("\nExemplo 2")
 my_dog = Dog("Pudge", 10) #u
 
 print(f"O nome do meu cachorro é {my_dog.nome.title()}") #v
-print(f"Meu cachorro tem {my_dog.idade} anos")
+print(f"Meu cachorro tem {my_dog.idade} anos") #não se utiliza-se self para acessar atributos diretamente
 
 """
 Acessando atributos
     Em #v vemos que para acessar os atributos de uma instância utilize a notação de ponto. Nesse caso, o interpretador olha para a instância my_dog e encontra o atributo nome associado a ela. É o mesmo atributo referenciado como #self.nome na classe #Dog
-    
+    Quando quisermos acessar atributos diretamente de um método não deve-se utilizar o #self.
+
 Chamando métodos
     Para chamar um método, especifique o nome da instância (my_dog) e o método que você quer chamar, separados por um ponto. Quando Python lê #my_dog.comendo(), ele procura o método #comendo() na classe #Dog e executa esse código."""
 
