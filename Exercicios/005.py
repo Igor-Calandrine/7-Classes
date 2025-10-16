@@ -1,0 +1,2 @@
+"""Tentativas de login: Acrescente um atributo chamado login_attempts à sua classe  User do Exercício  003. Escreva um método chamado increment_login_attempts() que incremente o valor de login_attempts em 1. Escreva outro método chamado reset_login_attempts() que reinicie o valor de
+login_attempts com 0. Crie uma instância da classe User e chame increment_login_attempts()"""
