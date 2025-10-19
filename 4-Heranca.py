@@ -135,7 +135,5 @@ my_tesla_4.bateria.bateria_descricao()
     Em #d adicionamos um atributo chamado self.bateria, essa linhas diz a Python para criar uma nova instância de #Bateria_4 (com default de 70, pois não estamos especificando nenhum valor).
     Toda vez que o método __init__() for chamado, qualquer instância de Carro_Eletrico_4 agora terá uma instância de Bateria_4 criada automaticamente.
     Em e# é importante observar que quando quisermos descrever a bateria, precisamos trabalhar com o atributo #bateria e depois chamar o método bateria_descricao() que foi associado a instância #Bateria_4 armazenada nesse atributo.
-    Em #f é demonstrado que para alterar o atributo #pot_bateria foi necessário primeiro acessar o atributo #bateria, local onde está armazenado todos os atributos da classe Bateria_4.
-    
-Modelando objetos do mundo real"""
+    Em #f é demonstrado que para alterar o atributo #pot_bateria foi necessário primeiro acessar o atributo #bateria, local onde está armazenado todos os atributos da classe Bateria_4."""
     
